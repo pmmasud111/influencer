@@ -1,0 +1,36 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 90px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    left: 120px;
+
+}
+
+.nav_list ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav_list ul li {
+    list-style: none;
+    font-size: 16px;
+    position: relative;
+    right: 120px
+}
