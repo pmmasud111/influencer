@@ -47,6 +47,7 @@
 
 .nav_list ul li a {
     text-decoration: none;
+    color: #3A3A3A;
 }
 
 .icon {
@@ -282,5 +283,18 @@
 
 .footer_icon ul li a {
     color: white;
+
+}
+
+/* -------------------------------
+      midea query start here 
+---------------------------------- */
+
+@media only screen and (max-width:576px) {
+
+    .banner_container {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
 
 }
