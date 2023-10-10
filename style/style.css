@@ -18,8 +18,8 @@
       -----------------------*/
 
 .navigation {
-    padding: 90px 0;
-    margin: auto 200px;
+    width: 1510px;
+    margin: 90px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,8 +61,9 @@
 .banner_container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: auto 200px;
+    column-gap: 150px;
+    width: 1510px;
+    margin: 0 auto;
 }
 
 .banner_title {
@@ -144,7 +145,6 @@
 }
 
 .products_item {
-    width: 85%;
     margin: 30px;
     padding: 16px;
     border-radius: 5px;
@@ -153,9 +153,13 @@
 
 }
 
-.products_item img {
+.products_img {
     width: 100%;
     margin-bottom: 16px;
+}
+
+.product_ditals {
+    width: 100%;
 }
 
 .products_name {
@@ -310,8 +314,7 @@
 
     .banner_container {
         flex-direction: column-reverse;
-        margin: auto 20px;
-        padding: auto 20px;
+        width: 100%;
     }
 
     .banner_title {
@@ -355,7 +358,7 @@
     /* product item start here  */
 
     .products_section {
-        width: 100%;
+        margin: 0 auto;
     }
 
     .products_title {
